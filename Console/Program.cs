@@ -21,7 +21,7 @@ namespace GithubActionsLab
                     Console.WriteLine("6) Quit");
                     var operationSelection = GetInput("Select your operation: ");
                     switch (operationSelection)
-                    {
+                    { 
                         case "1":
                             operation = Add;
                             break;
